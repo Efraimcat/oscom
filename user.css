@@ -1,0 +1,67 @@
+/* user.css ----------------------------------------------------------------- */
+@import url("headertags_seo_styles.css");
+
+@media (min-width: 768px) {
+.navbar {
+	background-color: #1b1919;
+	background: url(/images/albacoras-cabecera.jpg) no-repeat top center fixed; 
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+	background-size: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+.navbar {
+	background-color: black;
+    background: url(/images/albacoras-mobile.jpg) no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	min-height: 200px;
+	}
+}
+
+.navbar-brand {
+  display: none;
+}	
+
+@media (min-width: 768px) {
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-right {
+    float: right !important;
+    margin-right: -15px;
+	background-color: #1b1919;
+	margin-top: 250px;
+  }
+  .navbar-right ~ .navbar-right {
+    margin-right: 0;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-text {
+  color: #fff;
+}
+
+.footer {
+	background: #1a1939;
+}
+
+.img-footer{
+	vertical-align: middle;
+	float: right;
+}

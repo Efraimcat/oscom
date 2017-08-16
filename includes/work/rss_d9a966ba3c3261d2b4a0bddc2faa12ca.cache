@@ -1,0 +1,95 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:18:"osCommerce Add-Ons";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2017 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:8:"QTpro BS";s:4:"link";s:38:"http://addons.oscommerce.com/info/9548";s:11:"description";s:3032:"QTpro Track and manage attribute stock.<br />
+<br />
+Changes versus QTpro 5.3 BS<br />
+- created own options content group in product_info.php to move the options module to the original place above the &quot;Reviews&quot; and &quot;Add to Cart&quot; buttons.<br />
+- in included modified application_top.php, for case 'add_product' within shopping cart actions fixed missing added to cart message and redirect to product page<br />
+- added support for:<br />
+Options Images BS v1.1 (latest Version 1.5 or higher)<br />
+<br />
+(Options Images for sequenced drop down is not supported)<br />
+<br />
+Changes versus QTpro 5.2 BS<br />
+- added default option &quot;Please select&quot; in product info options modules, all pad pase classes<br />
+- included modified files updated to 2.3.4 BS EDGE from 2017/05/14<br />
+- fixed undefined constants notice in product_info options module<br />
+- fixed configuration statement for out of stock message in pad_single_dropdown class<br />
+- fixed wrong error reporting setting in included application_top.php<br />
+- fixed modification instructions for application_top.php<br />
+<br />
+Changes QTpro 5.1 BS<br />
+- stock check fix in shopping cart module<br />
+- added option to combine untracked options in single dropdown and single radio<br />
+<br />
+<br />
+Version 5.0 BS<br />
+<br />
+Thanks to: @altoid and @greasemonkey ideas, suggestions and testing<br />
+Thanks to @Lioelx for the spanish translations and corrections<br />
+<br />
+Support: http://forums.oscommerce.com/topic/410639-qtpro-bs/<br />
+<br />
+Based on: QTpro for osc 2.3 version 4.6.1<br />
+all credits to the previous contributers<br />
+<br />
+Compatibility:<br />
+OsC 2.3.4 Bootstrap Community Editions GOLD and EDGE at least up to 2017/05/14<br />
+PHP: 5.3, 5.4, 5.5, 5.6, 7.0<br />
+Filenames, Database Table Names and paths hardcoded. Superglobal variables used.<br />
+================================================================<br />
+<br />
+Changes versus QTpro 4.6.1<br />
+- product info modules updated for BS<br />
+- final product prices shown in option/attribute combinations on product info page also for more than one option/combinations in single dropdown and single radio plugin<br />
+- replaced all hardcoded text in admin files by language constants for full multilanguage support<br />
+- added spanish and german language files (german translations only for store side)<br />
+- modifications in all store files modularized, hooked or moved to header tag<br />
+- modifications in functions/general.php removed and done in specific fucntions in the modules/hooks/header_tags<br />
+- modification in classes/order.php moved to class extension<br />
+- filenames, database table names and paths hardcoded<br />
+- text definitions moved to new files and modules<br />
+- server variables vchanged to suberglobals<br />
+- reduced core file modifications to a minimum<br />
+- general code cleanup<br />
+<br />
+<br />
+Full Package<br />
+Update Instructions for QTpro for osc 2.3 version 4.6.1, 5.0 to 5.3 included";s:7:"pubDate";s:31:"Sun, 04 Jun 2017 18:20:48 +0200";}i:1;a:4:{s:5:"title";s:37:"Admin Customer Notes 1.0 for Osc 2.34";s:4:"link";s:38:"http://addons.oscommerce.com/info/9573";s:11:"description";s:356:"I think it's a nice feature to have for the owner of the Online Store. You can write personal note for your customers to remember important things ! <br />
+<br />
+----------------------------------------<br />
+Modified and adapted by Jeep_Ice <br />
+for Oscommerce 2.34<br />
+<br />
+Original code by PopTheTop<br />
+----------------------------------------";s:7:"pubDate";s:31:"Sat, 03 Jun 2017 20:16:36 +0200";}i:2;a:4:{s:5:"title";s:22:"Options Images BS v1.1";s:4:"link";s:38:"http://addons.oscommerce.com/info/9565";s:11:"description";s:339:"Change log<br />
+<br />
+ - add/remove images has been also added to the &quot;Option Values&quot; section<br />
+<br />
+Images can now be uploaded also as &quot;Option Values&quot;. This should help if the same image is used for multiple products.<br />
+<br />
+Special thanks and all credits for this go to raiwa.<br />
+<br />
+FULL PACKAGE!";s:7:"pubDate";s:31:"Sat, 03 Jun 2017 14:53:45 +0200";}i:3;a:4:{s:5:"title";s:29:"Excel Populate for Oscommerce";s:4:"link";s:38:"http://addons.oscommerce.com/info/8654";s:11:"description";s:8:"Populate";s:7:"pubDate";s:31:"Tue, 30 May 2017 15:31:06 +0200";}i:4;a:4:{s:5:"title";s:21:"Header Tags SEO V 3.0";s:4:"link";s:38:"http://addons.oscommerce.com/info/5851";s:11:"description";s:1814:"Added IP Tracking to the keyword tool. <br />
+Added a new page to display links using model numbers.<br />
+Added am option to enable the html editor, if installed, for manufacturers.<br />
+Added an additional words option for the products.<br />
+Fixed the character counter in Page Control so it displays correctly on page load.<br />
+Fixed the code for adding pseudo pages. Uses a common function to control all of the pages.<br />
+Fixed the keyword search to work with assigned words.<br />
+Fixed some security holes.<br />
+Changed the test function to check for missing category and manufacturer descriptions.<br />
+Changed the install and uninstall files to be more generic and to allow for deleting the files after use.<br />
+Changed code throughout for speed improvements.<br />
+Corrected mistake in admin/manufacturers.php.<br />
+Corrected mistake in index.php.<br />
+Corrected mistake in admin/includes/functions/header_tags.php that prevented titles and tags from showing on some pages.<br />
+Corrected mistake in admin/includes/functions/header_tags_general.php that prevented the breadcrumb text from showing - found by member milerwan.<br />
+Corrected mistake in install instructions for admin changes - found by IWAS.<br />
+Corrected mistake in includes/header_tags.php that prevented product titles from showing when the &quot;Use Item Name on Page&quot; was used.<br />
+Corrected mistake in the admin test section that incorrectly reported missing files.<br />
+Optimized the css file for speed and to use the shops fonts.<br />
+Removed the need for filename definitions in admin.<br />
+Removed the ssl check for the keywords module in the footer.<br />
+Removed STS checking code.<br />
+<br />
+The support thread for Header Tags SEO is at<br />
+http://forums.oscommerce.com/index.php?showtopic=298099";s:7:"pubDate";s:31:"Mon, 29 May 2017 20:01:49 +0200";}}s:11:"items_count";i:5;}
